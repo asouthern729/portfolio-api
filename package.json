@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "description": "Portfolio API",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node app"
+  },
+  "author": "Andrew Southern",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.24.0"
+  }
+}
